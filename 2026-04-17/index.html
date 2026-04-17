@@ -5,12 +5,33 @@
     <meta charset="UTF-8">
     <title>BuilderPulse Daily — 2026-04-17 | DailyPuls</title>
     <style>
-        :root { --bg: #0f172a; --text: #e2e8f0; --accent: #38bdf8; --border: #334155; --code-bg: #1e293b; }
+        :root { --bg: #0f172a; --text: #e2e8f0; --accent: #38bdf8; --border: #334155; --code-bg: #1e293b; --minimax-bg: #172554; --minimax-border: #3b82f6; }
         body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; line-height: 1.7; margin: 0; padding: 2rem; }
         .container { max-width: 740px; margin: 0 auto; }
         nav { margin-bottom: 2rem; }
         nav a { color: var(--accent); text-decoration: none; font-weight: bold; }
         article { background: #1e293b; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+        
+        /* MiniMax 专属板块样式 */
+        .minimax-section { 
+            background: var(--minimax-bg); 
+            border: 1px solid var(--minimax-border); 
+            padding: 1.5rem; 
+            border-radius: 8px; 
+            margin-bottom: 2.5rem; 
+        }
+        .minimax-title { 
+            color: #60a5fa; 
+            font-size: 1.2rem; 
+            font-weight: bold; 
+            margin-top: 0; 
+            margin-bottom: 1rem; 
+            display: flex; 
+            align-items: center; 
+            gap: 0.5rem;
+        }
+        .minimax-content { color: #dbeafe; }
+        
         h1 { color: var(--accent); font-size: 2rem; margin-top: 0; }
         h2 { color: #f1f5f9; border-left: 4px solid var(--accent); padding-left: 1rem; margin-top: 2.5rem; }
         h3 { color: #cbd5e1; margin-top: 1.5rem; }
@@ -25,6 +46,14 @@
     <div class="container">
         <nav><a href="../index.html">&larr; Back to DailyPuls Home</a></nav>
         <article>
+            
+            <div class="minimax-section">
+                <h2 class="minimax-title">🚀 MiniMax 动态聚焦</h2>
+                <div class="minimax-content">
+                    <p><strong><a href="https://huggingface.co/MiniMaxAI/MiniMax-M2.7">MiniMax-M2.7</a></strong>（趋势分 797，下载量 85K）是本周顶级模型 —— 一个对话文本生成模型。消费机会：可在消费级硬件上运行、质量与 ChatGPT 相当的本地聊天机器人。</p>
+                </div>
+            </div>
+            
             <h1>BuilderPulse Daily — 2026 年 4 月 17 日</h1>
 <blockquote>
 <p><strong>今日三大信号：</strong>
